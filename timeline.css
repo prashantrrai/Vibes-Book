@@ -1,69 +1,76 @@
 /* Timeline code */
 .timeline {
-    border-left:  3px solid rgb(0, 0, 0);
-    align-self: self-start;
-    padding-left: 30px;
-  }
-  
+  border-left: 3px solid rgb(0, 0, 0);
+  align-self: self-start;
+  padding-left: 30px;
+}
+
 .container {
-    position: relative;
-    margin-bottom: 20px;
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 2px 2px 8px blue;
-  }
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 8px blue;
+}
 
-.img_div{
-    position: absolute;
-    left: -45px;
-    top: 0px;
-    z-index: 1;
+.img_div {
+  position: absolute;
+  left: -45px;
+  top: 0px;
+  z-index: 1;
 }
-.img_div img{
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-  }
-.arrow{
-    height: 5px;
-    width: 5px;
-    border-style: solid;
-    border-width: 7px;
-    border-color: transparent white transparent transparent;
-    position: absolute;
-    left: -13px;
-    top: 7px;
+
+.img_div img {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
 }
+
+.arrow {
+  height: 5px;
+  width: 5px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: transparent white transparent transparent;
+  position: absolute;
+  left: -13px;
+  top: 7px;
+}
+
 .content {
-    padding: 10px 10px;
-    background-color: white;
-    position: relative;
-    border-radius: 3px;
-  }
-.content p{
-    font-size: 9px;
-    margin-top: 6px;
-}
-.content .today_btn{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-}
-.content .today_info{
-    font-size: 9px;
-    margin-top: 6px;
-    display: block;
-}
-.content .today_info span{
-    font-size: 8px;
-    color: rgb(0, 206, 124);
-    font-weight: 600;
+  padding: 10px 10px;
+  background-color: white;
+  position: relative;
+  border-radius: 3px;
 }
 
-.content .more_btn button{
-    background-color: rgb(0, 206, 124);
-    color: white;
-    border: 0;
-    font-size: 9px;
-    padding: 4px;
-    border-radius: 3px;
+.content p {
+  font-size: 9px;
+  margin-top: 6px;
 }
+
+.content .today_btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.content .today_info {
+  font-size: 9px;
+  margin-top: 6px;
+  display: block;
+}
+
+.content .today_info span {
+  font-size: 8px;
+  color: rgb(0, 206, 124);
+  font-weight: 600;
+}
+
+.content .more_btn button {
+  background-color: rgb(0, 206, 124);
+  color: white;
+  border: 0;
+  font-size: 9px;
+  padding: 4px;
+  border-radius: 3px;
+}/*# sourceMappingURL=timeline.css.map */
